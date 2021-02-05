@@ -2,6 +2,7 @@ ARG DOCKER_BASE
 FROM $DOCKER_BASE
 ARG DEVICE
 
+# 2. fix Docker
 # Hotfix
 
 ENV DEBIAN_FRONTEND=noninteractive
