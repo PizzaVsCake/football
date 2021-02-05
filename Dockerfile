@@ -1,7 +1,7 @@
 ARG DOCKER_BASE
 FROM $DOCKER_BASE
 ARG DEVICE
-
+# 2. Feature Dockerfile
 # Hotfix
 
 ENV DEBIAN_FRONTEND=noninteractive
